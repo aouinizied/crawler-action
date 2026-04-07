@@ -7,7 +7,7 @@ API_URL = (
     "?group_id=188769&time_format=datetime&appointments[0][intervention_id]=3453199"
 )
 NTFY_TOPIC = "clicrdv-8f3k2q9x"
-THRESHOLD = datetime(2026, 6, 8, 10, 30)
+THRESHOLD = datetime(2026, 4, 15, 9, 30)
 
 response = urllib.request.urlopen(API_URL)
 data = json.loads(response.read())
